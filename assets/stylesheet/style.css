@@ -1,5 +1,14 @@
+main {
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main article div.page:hover {
+    box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.7);
+}
+
 .avatar-wrapper .avatar {
-    width: 75%;
     -o-transition: 0.5s;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
@@ -7,14 +16,14 @@
 }
 
 .avatar-wrapper .avatar:hover {
-    -o-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    -moz-transform: scale(1.3);
-    transform: scale(1.3);
+    -o-transform: scale(1.3) rotate(-15deg);
+    -webkit-transform: scale(1.3) rotate(-15deg);
+    -moz-transform: scale(1.3) rotate(-15deg);
+    transform: scale(1.5) rotate(-15deg);
 }
 
 .stackable a.social {
-    color: #014d93;
+    color: #0a2e9a;
 }
 
 .hidden {
@@ -26,6 +35,10 @@
     margin-bottom: 15px;
     display: block;
     background-color: #fff;
-    border: #13c1b9 solid 3px;
+    border: rgba(10, 46, 154, 0.66) solid 3px;
     cursor: pointer;
+}
+
+.sign svg{
+    width: 100%;
 }
