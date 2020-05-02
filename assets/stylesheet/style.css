@@ -1,3 +1,33 @@
+#quote-wrapper {
+    display: none;
+    position: fixed;
+    background-color: #c61400;
+    color: #ffffff;
+    width: 100%;
+    z-index: 999;
+    padding: 2em;
+    opacity: 95%;
+}
+
+#quote {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#quote h4 {
+    font-size: 1.5em;
+}
+
+#quote p {
+    float: right;
+    font-style: italic;
+}
+
+#cross {
+    float: right;
+    cursor: pointer;
+}
+
 main {
     background: url("../images/bg.jpg");
     background-attachment: fixed;
@@ -39,6 +69,6 @@ main article div.page:hover {
     cursor: pointer;
 }
 
-.sign svg{
+.sign svg {
     width: 100%;
 }
