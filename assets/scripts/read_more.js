@@ -3,10 +3,10 @@ $('.read-more').click(function () {
     if (hiddenList.attr('display') === 'block') {
         $(this).html('Read More');
         hiddenList.slideUp();
-        hiddenList.attr('display', 'none');
+        hiddenList.css({'display': 'block'});
     } else {
         $(this).html('Read Less');
         hiddenList.slideDown();
-        hiddenList.attr('display', 'block');
+        hiddenList.css({'display': 'block'});
     }
 });
