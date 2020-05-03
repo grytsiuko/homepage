@@ -1,0 +1,74 @@
+#quote-wrapper {
+    display: none;
+    position: fixed;
+    background-color: #c61400;
+    color: #ffffff;
+    width: 100%;
+    z-index: 999;
+    padding: 2em;
+    opacity: 95%;
+}
+
+#quote {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#quote h4 {
+    font-size: 1.5em;
+}
+
+#quote p {
+    float: right;
+    font-style: italic;
+}
+
+#cross {
+    float: right;
+    cursor: pointer;
+}
+
+main {
+    background: url("../images/bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main article div.page:hover {
+    box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.7);
+}
+
+.avatar-wrapper .avatar {
+    -o-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.avatar-wrapper .avatar:hover {
+    -o-transform: scale(1.3) rotate(-15deg);
+    -webkit-transform: scale(1.3) rotate(-15deg);
+    -moz-transform: scale(1.3) rotate(-15deg);
+    transform: scale(1.5) rotate(-15deg);
+}
+
+.stackable a.social {
+    color: #0a2e9a;
+}
+
+.hidden {
+    display: none;
+}
+
+.read-more {
+    padding: 5px;
+    margin-bottom: 15px;
+    display: block;
+    background-color: #fff;
+    border: rgba(10, 46, 154, 0.66) solid 3px;
+    cursor: pointer;
+}
+
+.sign svg {
+    width: 100%;
+}
